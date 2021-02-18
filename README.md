@@ -29,7 +29,7 @@ I also exported the variables listed in the original docs, but added `ANSIBLE_PY
 
 My variables look like this:
 
-```
+```bash
 export BASTION_USER="mybastionusername"
 export BASTION_HOST="bastion.example.net"
 export BASTION_PORT=22
@@ -46,7 +46,7 @@ So I had to set `ANSIBLE_PYTHON_INTERPRETER` as a workaround.
 
 My error looked like this (if you want to compare):
 
-```
+```S
 TASK [Gathering Facts] *********************************************************
 [WARNING]: Unhandled error in Python interpreter discovery for host test.example.net: unexpected output from Python interpreter
 discovery
