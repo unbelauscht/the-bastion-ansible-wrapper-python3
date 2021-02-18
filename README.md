@@ -42,7 +42,8 @@ export ANSIBLE_PYTHON_INTERPRETER="/usr/bin/python3"
 ```
 
 It seems like using the bastion in the middle kinda breaks the Python interpreter discovery of Ansible.
-Thus I set `ANSIBLE_PYTHON_INTERPRETER` as a workaround.
+
+So I set `ANSIBLE_PYTHON_INTERPRETER` as a workaround.
 
 My error looked like this (if you want to compare):
 
