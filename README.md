@@ -41,8 +41,8 @@ export ANSIBLE_SCP_EXECUTABLE="${THE_LOCATION_WHERE_YOU_CLONED_IT}/the-bastion-a
 export ANSIBLE_PYTHON_INTERPRETER="/usr/bin/python3"
 ```
 
-As it seems like using the bastion in the middle kinda breaks the Python interpreter discovery of Ansible.
-So I had to set `ANSIBLE_PYTHON_INTERPRETER` as a workaround.
+It seems like using the bastion in the middle kinda breaks the Python interpreter discovery of Ansible.
+Thus I set `ANSIBLE_PYTHON_INTERPRETER` as a workaround.
 
 My error looked like this (if you want to compare):
 
